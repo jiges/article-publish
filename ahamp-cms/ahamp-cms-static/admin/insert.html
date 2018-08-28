@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>后台管理</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+</head>
+<body>
+<div class="topbar-wrap white">
+    <div class="topbar-inner clearfix">
+        <div class="topbar-logo-wrap clearfix">
+            <h1 class="topbar-logo none"><a href="index.html" class="navbar-brand">后台管理</a></h1>
+            <ul class="navbar-list clearfix">
+                <li><a class="on" href="index.html">首页</a></li>
+                <li><a href="/front/pages/index.html" target="_blank">网站首页</a></li>
+            </ul>
+        </div>
+        <div class="top-info-wrap">
+            <ul class="top-info-list clearfix">
+                <li><a href="/logout">退出</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container clearfix">
+    <div class="sidebar-wrap">
+        <div class="sidebar-title">
+            <h1>菜单</h1>
+        </div>
+        <div class="sidebar-content">
+            <ul class="sidebar-list">
+                <li>
+                    <a href="#"><i class="icon-font">&#xe003;</i>常用操作</a>
+                    <ul class="sub-menu">
+                        <li><a href="index.html"><i class="icon-font">&#xe008;</i>文章管理</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <!--/sidebar-->
+    <div class="main-wrap">
+
+        <div class="crumb-wrap">
+            <div class="crumb-list"><i class="icon-font"></i><a href="index.html">首页</a><span
+                    class="crumb-step">&gt;</span><a class="crumb-name" href="/admin/index.html">文章管理</a><span
+                    class="crumb-step">&gt;</span><span>新增文章</span></div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form>
+                    <input type="hidden" id="id" />
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                        <tr>
+                            <th width="70"><i class="require-red">*</i>栏目：</th>
+                            <td>
+                                <select name="colId" id="catid" class="required">
+                                    <option value="">请选择</option>
+                                    <option value="集团新闻">集团新闻</option>
+                                    <option value="党建与文化">党建与文化</option>
+                                    <option value="辉隆人">辉隆人</option>
+                                    <option value="公告">公告</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><i class="require-red">*</i>标题：</th>
+                            <td>
+                                <input class="common-text required" id="title" name="title" size="50" value=""
+                                       type="text">
+                            </td>
+                        </tr>
+                        <!--<tr>-->
+                            <!--<th>排序：</th>-->
+                            <!--<td><input class="common-text" name="author" size="50" value="admin" type="text"></td>-->
+                        <!--</tr>-->
+                        <tr>
+                            <th><i class="require-red">*</i>内容：</th>
+                            <td style="line-height: 1"><script type="text/plain" id="editor" style="width:800px;height:290px;"></script></td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td>
+                                <button type="button" class="btn btn-primary"  onclick="save()">保&nbsp;存</button>&nbsp;&nbsp;
+                                <button type="button" class="btn btn-warning" onclick="publish()">发&nbsp;布</button>&nbsp;&nbsp;
+                                <button type="button" class="btn btn-default cancel">返&nbsp;回</button>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script type="text/javascript" src="./library/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="./library/ueditor1_4_3-utf8-jsp/ueditor.config.js"></script>
+<script type="text/javascript" src="./library/ueditor1_4_3-utf8-jsp/ueditor.all.min.js"></script>
+<script src="./js/article_insert.js"></script>
+</body>
+</html>
