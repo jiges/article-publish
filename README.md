@@ -2,6 +2,11 @@
 
 ## 功能描述
   后台使用百度Ueditor编辑文章，前台展示文章。
+  ![后台文章列表](https://github.com/jiges/article-publish/blob/master/readme/%E5%88%97%E8%A1%A8.png)
+  ![后台文章编辑](https://github.com/jiges/article-publish/blob/master/readme/%E5%88%97%E8%A1%A8.png)
+  ![前台文章列表](https://github.com/jiges/article-publish/blob/master/readme/%E5%88%97%E8%A1%A8.png)
+  ![前台文章](https://github.com/jiges/article-publish/blob/master/readme/%E5%88%97%E8%A1%A8.png)
+  
   
 ## 配置说明
   系统整合了Ueditor和springboot，修改了Ueditor 后端的部分源码，使其能自动配置，查看源码ueditor-spring-boot。
