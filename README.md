@@ -3,9 +3,9 @@
 ## 功能描述
   后台使用百度Ueditor编辑文章，前台展示文章。
   ![后台文章列表](https://github.com/jiges/article-publish/blob/master/readme/%E5%88%97%E8%A1%A8.png)
-  ![后台文章编辑](https://github.com/jiges/article-publish/blob/master/readme/%E5%88%97%E8%A1%A8.png)
-  ![前台文章列表](https://github.com/jiges/article-publish/blob/master/readme/%E5%88%97%E8%A1%A8.png)
-  ![前台文章](https://github.com/jiges/article-publish/blob/master/readme/%E5%88%97%E8%A1%A8.png)
+  ![后台文章编辑](https://github.com/jiges/article-publish/blob/master/readme/%E6%96%87%E7%AB%A0%E5%8F%91%E5%B8%83.png?raw=true)
+  ![前台文章列表](https://github.com/jiges/article-publish/blob/master/readme/QQ%E6%88%AA%E5%9B%BE20180921101821.png)
+  ![前台文章](https://github.com/jiges/article-publish/blob/master/readme/clipboard.png)
   
   
 ## 配置说明
