@@ -19,7 +19,7 @@ spring: #spring配置
         driverClassName: com.mysql.jdbc.Driver
         url: jdbc:mysql://172.16.251.253:3306/ahamp-cms?useUnicode=true&characterEncoding=utf-8
         username: root
-        password: 5Yg6f4x1%bDiX%Q*
+        password: ***********
     servlet:
         multipart: #commons包中的ServletFileUpload读取request文件流，要求该request不能被spring的multipart处理过
             enabled: false
@@ -70,7 +70,7 @@ spring:
     datasource:
         url: jdbc:mysql://127.0.0.1:3306/ahamp-cms?useUnicode=true&amp;characterEncoding=utf-8
         username: root
-        password: Nrj2016qwe!@#
+        password: *********
 ueditor:
     rootPath: D:/dev/ahamp-cms/upload
 server:
